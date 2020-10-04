@@ -53,7 +53,9 @@ public:
 
 	void Log(string msg) override 
 	{		
-
+		msg = to_string(1 + rand() % 30) + "." + to_string(1 + rand() % 12)
+			+ ".2020  " + to_string(rand() % 23) + ":" + to_string(rand() % 60)
+			+ ":" + to_string(rand() % 60) + "   -   " + msg;
 		if (!isConnect)
 		{
 			ofstream localFout;

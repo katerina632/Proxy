@@ -1,10 +1,1 @@
-Random line
-Text
-Random line
-Text
-Some message
-Some message 2
-Some message
-Some message 2
-Some message
-Some message 2
+3.10.2020  9:54:7   -   Some message
